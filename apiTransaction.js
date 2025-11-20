@@ -17,11 +17,12 @@ function generateMovieDBUrl(path) {
 }
 
 
-function getTopRatedMovies() {
-    const url = generateMovieDBUrl(`/movie/top_rated`);
-    const render = renderMovies.bind({ title: 'Top Rated Movies' })
+function searchUpcomingMovies() {
+    const url = generateMovieDBUrl('/movie/upcoming');
+    const render = renderMovies.bind({ title: 'Upcoming Movies' })
     requestMovies(url, render, handleGeneralError);
 }
+
 
 function getTrendingMovies() {
     const url = generateMovieDBUrl('/trending/movie/day');
@@ -30,15 +31,16 @@ function getTrendingMovies() {
 }
 
 
-function searchUpcomingMovies() {
-    const url = generateMovieDBUrl('/movie/upcoming');
-    const render = renderMovies.bind({ title: 'Upcoming Movies' })
-    requestMovies(url, render, handleGeneralError);
-}
-
 function searchPopularMovie() {
     const url = generateMovieDBUrl('/movie/popular');
     const render = renderMovies.bind({ title: 'Popular Movies' });
+    requestMovies(url, render, handleGeneralError);
+}
+
+
+function getTopRatedMovies() {
+    const url = generateMovieDBUrl(`/movie/top_rated`);
+    const render = renderMovies.bind({ title: 'Top Rated Movies' })
     requestMovies(url, render, handleGeneralError);
 }
 
