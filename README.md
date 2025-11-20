@@ -1,2 +1,59 @@
-# Searching-Movies
-This is a HTML, CSS, JAVASCRIPT movie website project where users can come and know any movie from this website.
+# Welcome 🖐 to the Searching Movies App
+This is a HTML, CSS, JAVASCRIPT movie website project where users can come and known any movie from this website.
+
+You can test in
+<a href="https://leonelpalma.github.io/Searching-Movies/" target="_blank">Watch Now!</a>
+<br>
+
+## 💻Tech Stack
+<br>
+
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+<br>
+
+
+### How to get the project on your local machine:
+
+---
+
+- Download or clone the repository
+
+```
+git clone https://github.com/LeonelPalma/Searching-Movies.git
+```
+
+- Go to the directory
+- Open folder
+- Open index.html with live server 
+
+### Things used in the project
+
+Built with Vanilla JavaScript. Below is a list of the methods and properties use
+
+* querySelector
+* createElement
+* innerHTML
+* appendChild
+* insertBefore
+* preventDefault
+* dataset
+* parentElement
+* nextElementSibling
+* classList
+    * add
+    * remove
+* fetch
+* bind
+* setAttribute
+* onClick
+* toLowerCase
+* target
+
+
+
+I hope you like it... Contact me later, ok?
+
+©2025 All rights reserved. | Designed by Leonel Palma
